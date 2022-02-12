@@ -11,13 +11,51 @@
   crossorigin="anonymous"
 />
 </head>
-<body>
+<body onload="load()">
+  <div class="navbar navbar-dark bg-dark" ><p class="text-white" >Welcome to Game</p></div> 
     <div class="container my-3">
-       <p class="">Welcome to Game</p> 
+       
 
-<button onClick="document.getElementById('myImage').src='tenor.gif'" class="btn btn-success">Rotate the wheel</button>
+<button onClick="document.getElementById('myImage').src='tenor.gif'" class="btn btn-success">Rotate</button>
 <img src="th(53).jpg" alt="" id="myImage">
 <button onClick="document.getElementById('myImage').src='th(53).jpg'" class="btn btn-info ">Stop the wheel</button>
+
+
+<script>
+function laod(){
+  <><div class="spinner-grow text-primary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-secondary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-success" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-danger" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-warning" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-info" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-light" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-dark" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+</>
+
+}
+
+</script>
+
+
+
+
 
     </div>
     <script>
